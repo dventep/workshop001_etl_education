@@ -7,11 +7,11 @@ from psycopg2 import sql
 from configparser import ConfigParser
 
 #? Logger basic settings
-logging.basicConfig(level=logging.DEBUG, filename='workshop001.log', encoding='utf-8', format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG, filename='code/workshop001.log', encoding='utf-8', format='%(asctime)s - %(levelname)s - %(message)s')
 parser = ConfigParser()
 
 # Connection data for PostgreSQL
-credentials_filename = 'credentials.ini'
+credentials_filename = 'code/credentials.ini'
 database_section = 'postgresql'
 # ? In [credentials_filename] the structure is:
 # ? - Section: [database_section]
@@ -23,8 +23,10 @@ database_section = 'postgresql'
 # ?     - option 'port': 5432 (default)
 
 class Connection_Postgres ():
-    # Create connection with PostgreSQL
+    """ Create connection with PostgreSQL """
+    
     def __init__(self):
+        """ Constructor """
         self.connection_config = False
         self.connection = False
         self.data_to_connection()
@@ -33,6 +35,7 @@ class Connection_Postgres ():
             self.create_connection_postgresql()
 
     def data_to_connection (self):
+        """ Method to get credentials data to connect with database """
         parser.read(credentials_filename)
 
         connection_config = {}
@@ -45,6 +48,7 @@ class Connection_Postgres ():
         self.connection_config = connection_config
         
     def create_connection_postgresql(self):
+        """ Method to create a connection with database """
         try:
             postgre_connection = psycopg2.connect(
                 dbname = self.connection_config['default_database'],
@@ -75,10 +79,10 @@ class Connection_Postgres ():
             logging.info(f"Connected with {self.connection_config['database']} - user: {self.connection_config['user']}")
                         
         except (psycopg2.DatabaseError, Exception) as error:
-            print(format_exc())
             logging.error(error, exc_info=True)
             
     def log(self, text):
+        """ Method to create log records """
         logging.info(text)
 
     def create_connection_database(self):
@@ -136,6 +140,3 @@ class Connection_Postgres ():
             )
         """)
         logging.info(f'Structure created of {self.connection_config["database"]} DB.')
-
-if __name__ == "__main__":
-    Connection_Postgres()
