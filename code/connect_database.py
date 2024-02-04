@@ -111,32 +111,35 @@ class Connection_Postgres ():
         # Create table 'applicant' if not exists
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS applicant (
-                first_name VARCHAR DEFAULT '',
-                last_name VARCHAR DEFAULT '',
-                email VARCHAR DEFAULT '',
+                first_name VARCHAR DEFAULT NULL,
+                last_name VARCHAR DEFAULT NULL,
+                email VARCHAR DEFAULT NULL,
                 applicant_date DATE DEFAULT NULL,
-                country VARCHAR DEFAULT '',
+                applicant_year INTEGER DEFAULT NULL,
+                applicant_month INTEGER DEFAULT 0,
+                applicant_month_name VARCHAR DEFAULT NULL,
+                country VARCHAR DEFAULT NULL,
                 experience_year INTEGER DEFAULT 0,
-                seniority VARCHAR DEFAULT '',
-                technology VARCHAR DEFAULT '',
+                seniority VARCHAR DEFAULT NULL,
+                technology VARCHAR DEFAULT NULL,
                 code_challenge_score INTEGER DEFAULT 0,
                 technical_interview_score INTEGER DEFAULT 0,
-                is_hired INTEGER DEFAULT 0 CHECK (is_hired >= 0 AND is_hired <= 1)
+                is_hire INTEGER DEFAULT 0 CHECK (is_hire >= 0 AND is_hire <= 1)
             )
         """)
         # Create table 'raw_applicant' if not exists
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS raw_applicant (
-                first_name VARCHAR DEFAULT '',
-                last_name VARCHAR DEFAULT '',
-                email VARCHAR DEFAULT '',
-                applicant_date VARCHAR DEFAULT '',
-                country VARCHAR DEFAULT '',
-                experience_year VARCHAR DEFAULT '',
-                seniority VARCHAR DEFAULT '',
-                technology VARCHAR DEFAULT '',
-                code_challenge_score VARCHAR DEFAULT '',
-                technical_interview_score VARCHAR DEFAULT ''
+                first_name VARCHAR DEFAULT NULL,
+                last_name VARCHAR DEFAULT NULL,
+                email VARCHAR DEFAULT NULL,
+                applicant_date VARCHAR DEFAULT NULL,
+                country VARCHAR DEFAULT NULL,
+                experience_year VARCHAR DEFAULT NULL,
+                seniority VARCHAR DEFAULT NULL,
+                technology VARCHAR DEFAULT NULL,
+                code_challenge_score VARCHAR DEFAULT NULL,
+                technical_interview_score VARCHAR DEFAULT NULL
             )
         """)
         logging.info(f'Structure created of {self.connection_config["database"]} DB.')
