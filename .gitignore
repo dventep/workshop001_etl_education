@@ -2,10 +2,10 @@
 /venv/
 
 # File with PostgreSQL credentials data
-credentials.ini
+code/config/credentials.ini
 
 # Logs file
-workshop001.log
+code/log/workshop001.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

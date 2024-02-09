@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  #? Database
+  postgres:
+    image: postgres:13
+    restart: always
+    volumes:
+      - "./sql:/docker-entrypoint-initdb.d"
+    env_file:
+      - ./config/process.env
+    ports:
+      - '5432:5432'
+    networks:
+      - workshop_first
+    container_name: postgres
+  
+  #? Database administrator
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@admin.com"
+      PGADMIN_DEFAULT_PASSWORD: "admin"
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - postgres
+    networks:
+      - workshop_first
+    container_name: pgadmin
+
+networks:
+  workshop_first:

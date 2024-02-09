@@ -7,11 +7,11 @@ from psycopg2 import sql
 from configparser import ConfigParser
 
 #? Logger basic settings
-logging.basicConfig(level=logging.DEBUG, filename='code/workshop001.log', encoding='utf-8', format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG, filename='./log/workshop001.log', encoding='utf-8', format='%(asctime)s - %(levelname)s - %(message)s')
 parser = ConfigParser()
 
 # Connection data for PostgreSQL
-credentials_filename = 'code/credentials.ini'
+credentials_filename = '../code/config/credentials.ini'
 database_section = 'postgresql'
 # ? In [credentials_filename] the structure is:
 # ? - Section: [database_section]
