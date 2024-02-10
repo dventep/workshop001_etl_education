@@ -1,5 +1,5 @@
 # virtual environment
-/venv/
+venv
 
 # File with PostgreSQL credentials data
 code/config/credentials.ini
@@ -8,4 +8,4 @@ code/config/credentials.ini
 code/log/workshop001.log
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
+__pycache__

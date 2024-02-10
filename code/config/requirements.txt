@@ -1,5 +1,8 @@
-psycopg2-binary
-sqlalchemy
-numpy
-pyarrow
 pandas
+pip-audit
+# psycopg2-binary
+pre-commit
+# numpy
+pyarrow
+pylint
+sqlalchemy
