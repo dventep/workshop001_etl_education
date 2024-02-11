@@ -1,8 +1,13 @@
+importlib
+ipykernel
+matplotlib
+numpy
 pandas
+pip
 pip-audit
-# psycopg2-binary
 pre-commit
-# numpy
+psycopg2-binary
 pyarrow
 pylint
 sqlalchemy
+sqlalchemy-utils

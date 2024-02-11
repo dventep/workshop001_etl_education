@@ -3,6 +3,7 @@ venv
 
 # File with PostgreSQL credentials data
 code/config/credentials.ini
+code/config/aws_credentials.ini
 
 # Logs file
 code/log/workshop001.log

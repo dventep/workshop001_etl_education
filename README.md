@@ -1,5 +1,8 @@
 # workshop001_etl_education
 
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+
+
 Repository of workshop001 developed.
 
 Link Power BI
@@ -21,21 +24,21 @@ Following instructions are based on Windows 11 OS:
 
    1. Turn on **Docker** or **Docker Desktop**.
    2. To do this, from root folder we must go to the folder: _./code/script/_
-   3. When we stay in that folder, we execute the code: `<code>`docker-compose up`</code>`
+   3. When we stay in that folder, we execute the code: `<code>`docker-compose up `</code>`
 
-      > __[ ℹ️ ].__ If we want to eliminate the containers, from root folder execute the code _(For Windows)_: `<code>`/code/script/dockerdelete.ps1`</code>`.
-      
+      > __[ ℹ️ ].__ If we want to eliminate the containers, from root folder execute the code _(For Windows)_: `<code>`/code/script/dockerdelete.ps1 `</code>`.
+      >
    4. Return to the root folder.
 3. Create virtual environment for Python:
 
-   `<code>`python -m venv venv`</code>`
+   `<code>`python -m venv venv `</code>`
 4. Choose venv as Kernel for .ipynb files in the folder **notebooks**.
 
-   In each file in **notebooks**, there is a code to install required libraries if necessary.
+   In each file in **notebooks**, there is a code line to install required libraries if necessary with the title '_Install requirement libraries_'.
 5. Explorate the notebooks in the folder **notebooks**. I have two notebooks: _load_csv_file_ and _EDA_report_.
 
-    - **load_csv_file:** Its objective is take the raw dataset in a csv file and load it in a PosgreSQL database within the **raw_applicant** table.
-    - **eda_report:** Its objective is take data of **raw_applicant**, explore, transform, analyze and load it in the same database within **applicant** table.
+   - **load_csv_file:** Its objective is take the raw dataset in a csv file and load it in a PosgreSQL database within the **raw_applicant** table.
+   - **eda_report:** Its objective is take data of **raw_applicant**, explore, transform, analyze and load it in the same database within **applicant** table.
 
-    > __[ ℹ️ ].__ To execute in order, let's start with **load_csv_file** and later **eda_report**.
-
+   > __[ ℹ️ ].__ To execute in order, let's start with **load_csv_file** and later **eda_report**.
+   >
