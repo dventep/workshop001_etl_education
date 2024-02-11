@@ -3,8 +3,9 @@
 # Import libraries
 import logging
 from configparser import ConfigParser
-from sqlalchemy import create_engine, inspect
-from sqlalchemy_utils import database_exists, create_database
+from sqlalchemy import create_engine
+from sqlalchemy_utils import create_database
+from sqlalchemy_utils import database_exists
 from sqlalchemy.orm import sessionmaker
 import importlib.util
 
@@ -28,7 +29,7 @@ logging.basicConfig(
 # ?     - option 'port': 5432 (default)
 
 
-class Connection_Postgres:
+class ConnectionPostgres:
     """Create connection with PostgreSQL"""
 
     PARSER = ConfigParser()
@@ -54,12 +55,6 @@ class Connection_Postgres:
 
         sql_classes.BASE.metadata.drop_all(self.engine)
         sql_classes.BASE.metadata.create_all(self.engine)
-
-    def get_module_columns(self, table_name) -> dict:
-        """Method to get columns of a table in the database"""
-
-        inspector = inspect(self.engine)
-        return inspector.get_columns(table_name)
 
     def get_module_records(self, table_name):
         """Method to get records of a table in the database"""
@@ -106,6 +101,7 @@ class Connection_Postgres:
 
     def log(self, text) -> None:
         """Method to create log records"""
+
         logging.info(text)
 
     def create_engine(self) -> None:
