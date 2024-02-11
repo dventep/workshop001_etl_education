@@ -20,13 +20,6 @@ logging.basicConfig(
     encoding="utf-8",
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
-# ? In [CREDENTIALS_FILENAME] the structure is:
-# ? - Section: [DATABASE_SECTION]
-# ?     - option 'host': localhost (default)
-# ?     - option 'database': etl_workshop_first
-# ?     - option 'user': postgres (default)
-# ?     - option 'password': '' (default)
-# ?     - option 'port': 5432 (default)
 
 
 class ConnectionPostgres:
