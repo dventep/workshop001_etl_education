@@ -1,4 +1,4 @@
-# workshop001_etl_education
+# Candidates - Employment test
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 
@@ -25,7 +25,7 @@ Following instructions are based on Windows 11 OS:
    - <img src="https://github.com/get-icon/geticon/raw/master/icons/aws.svg" alt="AWS" width="21px" height="21px"> <img src="https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/aws-rds.svg" alt="AWS RDS" width="21px" height="21px"> **AWS RDS**.
    - <img src="https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/looker-icon.svg" alt="Looker Studio" width="21px" height="21px"> **Looker Studio**.
 
-   > [!NOTE]
+   > NOTE
    > In this case, I use Docker to deploy PostgreSQL _(Port 5432)_ with host _localhost_.
 
 2. Create credentials file to connect local Postgres.
@@ -41,7 +41,7 @@ Following instructions are based on Windows 11 OS:
    port='5432 (default)'
    ```
 
-   > [!NOTE]
+   > NOTE
    > If you notice, AWS RDS was mentioned and in the .gitignore file there is aws_credentials.ini filename. In the process as will be evidenced below, you will find the screenshots of part of the services and connections established in AWS to connect me from the execution of these notebooks to Looker Studio.
    >
    > The service at this moment is down for the elimination of unnecessary costs, if it's needed in a few adjustments it will be implemented.
@@ -61,7 +61,7 @@ Following instructions are based on Windows 11 OS:
    - **load_csv_file:** Its objective is take the raw dataset in a csv file and load it in a PosgreSQL database within the **raw_applicant** table.
    - **eda_report:** Its objective is take data of **raw_applicant**, explore, transform, analyze and load it in the same database within **applicant** table.
 
-   > [!NOTE] 
+   > NOTE
    > To execute in order, let's start with **load_csv_file** and later **eda_report**.
 
 ### Execution example
@@ -70,9 +70,6 @@ Following instructions are based on Windows 11 OS:
 
 ### Support resources
 
-   - Github: [Workshop 001 - ETL Education Repository]
+   - Github: [Workshop 001 - ETL Education Repository](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba)
 
-   - Gist: [Workshop 001 - ETL Education Gist]
-
-[Workshop 001 - ETL Education Repository]: (https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba)
-[Workshop 001 - ETL Education Gist]: (https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba)
+   - Gist: [Workshop 001 - ETL Education Gist](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba)
