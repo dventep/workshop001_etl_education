@@ -38,13 +38,13 @@ The visualizations that I am expecting are:
 ### Dashboard
    
 1. Technology Category - Dashboard.
-   ![Technology Category - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303985019-4134105a-bf96-4a31-817c-b11376cfd504.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T072307Z&X-Amz-Expires=300&X-Amz-Signature=068a80fb95c69c53417611c03b268e2360435243544981fa07d94173dac8c6a3&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Technology Category - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304123577-1af92a8f-508e-49ea-847c-d5808f9ec879.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T144545Z&X-Amz-Expires=300&X-Amz-Signature=52f241432960edf27e0927ce703d3527ce6b0c6a9e714c692a3ecf7e760515a1&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 2. Year & Seniority - Dashboard.
-   ![Year & Seniority - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303985145-654fe112-b1ac-4d0d-81d0-58263f515f9b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T072316Z&X-Amz-Expires=300&X-Amz-Signature=45cebfc37c9efeac564a399f7f5a1d6f3d82e10682827b6c6fad42cf2069cfec&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Year & Seniority - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304123510-2416f4aa-9967-41f0-923f-f2303cd5668a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T144523Z&X-Amz-Expires=300&X-Amz-Signature=8cb5236be98b9cc775528bf5a8d2e7612b1ee512d7ed5b9f1f2cdfd7a91d749d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 3. Country over years - Dashboard.
-   ![Country over years - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303987344-e83303de-cee3-4738-81de-669849c2feb3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T072326Z&X-Amz-Expires=300&X-Amz-Signature=bb1e8168c8e0eeb1f868816e15b296ed82c7e375ba0a60e9bf39de10ac899576&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Country over years - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304123527-a649a40a-6351-4345-b25c-20e76795a9fe.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T144440Z&X-Amz-Expires=300&X-Amz-Signature=19dc40e6de21fdb05fb3780983f81346bc245ed9c4b3687bc02d1749b207bb0b&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
    **Link of the interactive dashboard:** [Dashboard in Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
 
