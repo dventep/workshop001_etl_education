@@ -108,11 +108,11 @@ Following instructions are based on Windows 11 OS:
    port='5432 (default)'
    ```
 
-   >[!NOTE]
-   > If you notice, AWS RDS was mentioned and in the .gitignore file there is aws_credentials.ini filename. In the process as will be evidenced below, you will find the screenshots of part of the services and connections established in AWS to connect me from the execution of these notebooks to Looker Studio.
-   >
-   > The service at this moment is down for the elimination of unnecessary costs, if it's needed in a few adjustments it will be implemented.
-   >
+>[!NOTE]
+> If you notice, AWS RDS was mentioned and in the .gitignore file there is aws_credentials.ini filename. In the process as will be evidenced below, you will find the screenshots of part of the services and connections established in AWS to connect me from the execution of these notebooks to Looker Studio.
+>
+> The service at this moment is down for the elimination of unnecessary costs, if it's needed in a few adjustments it will be implemented.
+
 3. Create virtual environment for Python:
 
    ```python
@@ -144,8 +144,8 @@ Following instructions are based on Windows 11 OS:
    - **load_csv_file:** Its objective is take the raw dataset in a csv file and load it in a PosgreSQL database within the **raw_applicant** table.
    - **eda_report:** Its objective is take data of **raw_applicant**, explore, transform, analyze and load it in the same database within **applicant** table.
 
-   >[!NOTE]
-   > To execute in order, let's start with **load_csv_file** and later **eda_report**.
+>[!NOTE]
+> To execute in order, let's start with **load_csv_file** and later **eda_report**.
 
 7. Then executed every notebook, we should verify the existence of the database.
 
