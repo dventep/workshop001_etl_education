@@ -8,6 +8,9 @@ In this repository we have an ETL's process based in a CSV file with randomly ge
 
 The process start with the CSV file that is read by an Jupyter Notebook to transfer the data to PostgreSQL. Then this data is read by another Jupyter Notebook that applies ETL methodologies to know, organize, calculate and modify it; and same data with additions are loaded again to PostgreSQL. Finally, a dashboard retrieves it to communicate its raison d'être.
 
+
+**Link of the dashboard:** [Dashboard in Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
+
 The tools used are:
 
    - <img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="21px" height="21px"> <img src="https://github.com/get-icon/geticon/raw/master/icons/pandas-icon.svg" alt="Pandas Python" width="21px" height="21px"> <img src="https://github.com/get-icon/geticon/raw/master/icons/numpy-icon.svg" alt="Numpy Python" width="21px" height="21px"> **[Python](https://www.python.org)**.
@@ -216,9 +219,18 @@ Following instructions are based on Windows 11 OS:
    10. Using pre-commits.
       ![Using pre-commits](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303961952-75f80c5f-381d-4bb1-9c04-00f94659f9ff.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025037Z&X-Amz-Expires=300&X-Amz-Signature=9d74de65bf0275b66ae5bbdc6cec360f51be0519072384319dc887d18fc2ed1a&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
+   11. Technology Category - Dashboard.
+      ![Technology Category - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303985019-4134105a-bf96-4a31-817c-b11376cfd504.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T072307Z&X-Amz-Expires=300&X-Amz-Signature=068a80fb95c69c53417611c03b268e2360435243544981fa07d94173dac8c6a3&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+
+   12. Year & Seniority - Dashboard.
+      ![Year & Seniority - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303985145-654fe112-b1ac-4d0d-81d0-58263f515f9b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T072316Z&X-Amz-Expires=300&X-Amz-Signature=45cebfc37c9efeac564a399f7f5a1d6f3d82e10682827b6c6fad42cf2069cfec&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+
+   13. Country over years - Dashboard.
+      ![Country over years - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303987344-e83303de-cee3-4738-81de-669849c2feb3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T072326Z&X-Amz-Expires=300&X-Amz-Signature=bb1e8168c8e0eeb1f868816e15b296ed82c7e375ba0a60e9bf39de10ac899576&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 ---
 ### My support resources
 
-- <img src="https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/github-icon.svg" alt="GitHub" width="21px" height="21px"> <img src="https://avatars.githubusercontent.com/u/92474551" alt="Me" width="21px" height="21px" style="border-radius: 50%"> Github: [Workshop 001 - ETL Education Repository](https://github.com/dventep/workshop001_etl_education/tree/develop)
-- <img src="https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/github-icon.svg" alt="GitHub" width="21px" height="21px"> <img src="https://avatars.githubusercontent.com/u/92474551" alt="Me" width="21px" height="21px" style="border-radius: 50%"> Gist: [Workshop 001 - ETL Education Gist](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba)
+- <img src="https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/github-icon.svg" alt="GitHub" width="21px" height="21px"> <img src="https://avatars.githubusercontent.com/u/92474551" alt="Me" width="21px" height="21px" style="border-radius: 50%"> Github: [Workshop 001 - ETL Education Repository](https://github.com/dventep/workshop001_etl_education/tree/develop).
+- <img src="https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/github-icon.svg" alt="GitHub" width="21px" height="21px"> <img src="https://avatars.githubusercontent.com/u/92474551" alt="Me" width="21px" height="21px" style="border-radius: 50%"> Gist: [Workshop 001 - ETL Education Gist](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba).
+- <img src="https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/looker-icon.svg" alt="Looker Studio" width="21px" height="21px"> <img src="https://avatars.githubusercontent.com/u/92474551" alt="Me" width="21px" height="21px" style="border-radius: 50%"> Looker Studio: [Dashboard - Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
