@@ -4,12 +4,9 @@
 
 ### Description
 
-In this repository we have an ETL's process based in a CSV file with randomly generated data of candidates from February 22, 2020 until May 13, 2022 with 50.000 rows and 10 columns that after processing are now 16 columns.
+In this repository we have an ETL's process based in a CSV file with randomly generated data of candidates from February 22, 2020 until May 13, 2022 with 50.000 rows and 10 columns that after processing are now 16 columns to create a dashboard of hired candidates.
 
 The process start with the CSV file that is read by an Jupyter Notebook to transfer the data to PostgreSQL. Then this data is read by another Jupyter Notebook that applies ETL methodologies to know, organize, calculate and modify it; and same data with additions are loaded again to PostgreSQL. Finally, a dashboard retrieves it to communicate its raison d'être.
-
-
-**Link of the dashboard:** [Dashboard in Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
 
 The tools used are:
 
@@ -36,6 +33,18 @@ The visualizations that I am expecting are:
 
 >[!NOTE]
 > <span style="color:#5b753f">This project is the first workshop of the ETL subject of Artificial Intelligence & Data Engineering at the Universidad Autónoma de Occidente under the teaching of [Javier Alejandro Vergara Zorilla](https://www.linkedin.com/in/javier-alejandro-vergara/).</span>
+
+---
+### Dashboard
+
+<object data="https://docs.google.com/viewer?srcid=16Hq1Zg4BD6EV23qcGTasjwCc6axVRyhn&pid=explorer&efh=false&a=v&chrome=false&embedded=true" type="application/pdf" width="580px" height="480px">
+   <embed src="https://docs.google.com/viewer?srcid=16Hq1Zg4BD6EV23qcGTasjwCc6axVRyhn&pid=explorer&efh=false&a=v&chrome=false&embedded=true">
+      <p><a href="https://docs.google.com/viewer?srcid=16Hq1Zg4BD6EV23qcGTasjwCc6axVRyhn&pid=explorer&efh=false&a=v&chrome=false&embedded=true">Download PDF</a>.</p>
+   </embed>
+</object>
+<iframe src="https://docs.google.com/viewer?srcid=16Hq1Zg4BD6EV23qcGTasjwCc6axVRyhn&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="580px" height="480px"></iframe>
+
+**Link of the dashboard:** [Dashboard in Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
 
 ---
 ### Data arquitecture diagram
