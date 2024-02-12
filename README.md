@@ -25,6 +25,11 @@ The tools used are:
 
 The project is oriented to present in a general way the candidates that are hired under the requirements provided by a job test and to perfom it in a visual way by means of sampling specific data to comply with it.
 
+The visualizations that I am expecting are:
+   - Hires by technology (pie chart).
+   - Hires by year (horizontal bar chart).
+   - Hires by seniority (bar chart).
+   - Hires by country over years (USA, Brazil, Colombia, and Ecuador only)(multiline chart) .
 
 > <span style="color:#3c4e29; font-weight:bold">[Considerations]</span>
 >
@@ -67,11 +72,9 @@ The project is oriented to present in a general way the candidates that are hire
       Represents each of us.
 
 #### Diagram: Local Flow.
-
    ![Local Flow - Data Arquitecture Diagram](https://gist.github.com/assets/92474551/c44df4de-c77a-4032-bc15-1a29bc57ed09)
 
 #### Diagram: Cloud Flow.
-
    ![Cloud Flow - Data Arquitecture Diagram](https://gist.github.com/assets/92474551/c2517643-a25b-4065-b196-56c999ecfe3c)
 
 ---
@@ -172,6 +175,7 @@ Following instructions are based on Windows 11 OS:
       user = --------
       password = --------
       ```
+
       ![Config to connect Looker Studio with PostgreSQL](https://gist.github.com/assets/92474551/0ca9ed14-6365-4792-b845-9c1ca3b9e116)
 
       Now, we have the data sync with Looker Studio.
@@ -180,6 +184,7 @@ Following instructions are based on Windows 11 OS:
 ### Evidence
 
    1. Evidence of _etl_workshop_first_ creation.
+   
       ![Evidence of _etl_workshop_first_ creation](https://gist.github.com/assets/92474551/0d79098a-8859-4e6b-af15-f29d04dfdee2)
 
    2. Loading of records in **raw_applicant** table done.
