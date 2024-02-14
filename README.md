@@ -94,7 +94,7 @@ The visualizations that I am expecting are:
       Represents each of us.
 
 #### Diagram: Local Flow.
-   ![Local Flow - Data Arquitecture Diagram](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303946145-c44df4de-c77a-4032-bc15-1a29bc57ed09.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025357Z&X-Amz-Expires=300&X-Amz-Signature=f9744767a18f6129f29b3974be2b91744d8c343a4d5e69c6735b2286dc51e2fd&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Local Flow - Data Arquitecture Diagram](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303946145-c44df4de-c77a-4032-bc15-1a29bc57ed09.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T225021Z&X-Amz-Expires=300&X-Amz-Signature=4b2d44749e21f2c2685dea15f681e4011599c0ab5e1c90a7f2a1101b9db42b50&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 #### Diagram: Cloud Flow.
    ![Cloud Flow - Data Arquitecture Diagram](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303948466-c2517643-a25b-4065-b196-56c999ecfe3c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025348Z&X-Amz-Expires=300&X-Amz-Signature=3343e5682100c6193db7d02e39277c1e30c24586608edb7e6a7510a67a1bab06&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
