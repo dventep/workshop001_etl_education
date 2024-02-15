@@ -44,26 +44,43 @@ class ConnectionPostgres:
             self.create_connection()
 
     def make_tables(self) -> None:
-        """Method to create tables in database"""
+        """Method to create tables in database
+            
+            Returns: None
+        """
 
         sql_classes.BASE.metadata.drop_all(self.engine)
         sql_classes.BASE.metadata.create_all(self.engine)
 
     def get_module_records(self, table_name):
-        """Method to get records of a table in the database"""
+        """Method to get records of a table in the database
+        
+            Parameters:
+                table_name: str
+                    Name of the table in the database
+            Returns: List
+                List of dictionaries with records of the specified table.        
+        """
 
         raw_applicant_table = self.get_modules()[table_name]
         records = self.session.query(raw_applicant_table).all()
         return [record.__dict__ for record in records]
 
     def get_modules(self) -> dict:
-        """Method to get classes structure of every table in the database"""
+        """Method to get classes structure of every table in the database
+
+            Returns: dict
+                Dictionary with classes structure of every table in the database
+        """
 
         self.modules = {"RawApplicant": sql_classes.RawApplicant, "Applicant": sql_classes.Applicant}
         return self.modules
 
     def data_to_connection(self) -> None:
-        """Method to get credentials data to connect with database"""
+        """Method to get credentials data to connect with database
+        
+            Returns: None
+        """
 
         self.PARSER.read(self.CREDENTIALS_FILENAME)
         connection_config = {}
@@ -77,14 +94,20 @@ class ConnectionPostgres:
         self.connection_config = connection_config
 
     def create_connection(self) -> None:
-        """Method to create a connection with database"""
+        """Method to create a connection with database
+        
+            Returns: None
+        """
 
         Session = sessionmaker(self.engine)
         self.session = Session()
         logging.info(f"Connected with {self.connection_config['database']} - user: {self.connection_config['user']}")
 
     def close_connection(self) -> None:
-        """Method to close connection with database"""
+        """Method to close connection with database
+        
+            Returns: None
+        """
 
         if self.session:
             self.session.close()
@@ -93,12 +116,22 @@ class ConnectionPostgres:
             )
 
     def log(self, text) -> None:
-        """Method to create log records"""
+        """Method to create log records
+        
+            Parameters:
+                text: str
+                    Text to be logged.
+            
+            Returns: None
+        """
 
         logging.info(text)
 
     def create_engine(self) -> None:
-        """Method to create a connection with database"""
+        """Method to create a connection with database
+        
+            Returns: None
+        """
 
         engine_url = f"{self.DATABASE_SECTION}://{self.connection_config['user']}:{self.connection_config['password']}@{self.connection_config['host']}:{self.connection_config['port']}/{self.connection_config['database']}"
 
