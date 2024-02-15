@@ -39,7 +39,7 @@ The visualizations that I am expecting are:
 ### Dashboard
 
 1. Home - Dashboard.
-   ![Home - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304759256-77482a38-61ca-4431-84e0-bc502570016c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T145653Z&X-Amz-Expires=300&X-Amz-Signature=d124dcfe2e19373405224d49ba0de232d40f8fd646e5a2a40275512b76712612&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Home - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304911518-ed4e1238-275a-45b2-830e-e1a85438027e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240215T001259Z&X-Amz-Expires=300&X-Amz-Signature=52d901e6efbe7260dce52c3396a7100a4843eb1e4d202e9209458ca3595a1d36&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
    
 3. Technology Category - Dashboard.
    ![Technology Category - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304129419-dd9a5f2e-c3d3-4c17-9c78-0f41368a599a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T150644Z&X-Amz-Expires=300&X-Amz-Signature=43e990c5a7195c1641d4a0cb99cc32ccec7cb972c988e9fd41f5b62a7a433ff5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
