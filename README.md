@@ -39,19 +39,19 @@ The visualizations that I am expecting are:
 ### Dashboard
 
 1. Home - Dashboard.
-   ![Home - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304911518-ed4e1238-275a-45b2-830e-e1a85438027e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240215T233934Z&X-Amz-Expires=300&X-Amz-Signature=d8b725fcf970c6de24003648822b8c69e2f01d8dd36c36e9670240efd49c8675&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Home - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/home_dashboard.png)
    
 3. Technology Category - Dashboard.
-   ![Technology Category - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/305254885-d0ae8895-2a52-4ec2-86e8-d13400bccc1c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240215T233808Z&X-Amz-Expires=300&X-Amz-Signature=06b99fd5d6ca926d976110f2d50509e1b4b340f02187bcfd125050379156b831&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Technology Category - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/technology_category_dashboard.png)
 
 4. Year & Seniority - Dashboard.
-   ![Year & Seniority - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/305255543-b2032315-26da-42c4-807b-627f7cff6cc8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240215T234045Z&X-Amz-Expires=300&X-Amz-Signature=c5242098de49c165b9d3d0ef905ee2ec421a613b10a579b1772a896513115d2e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Year & Seniority - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/year_and_seniority_dashboard.png)
 
 5. Country over years - Dashboard.
-   ![Country over years - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304762241-d712f601-1080-4da5-8bac-42a25938a4cb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T150947Z&X-Amz-Expires=300&X-Amz-Signature=b2e5e8b7cd7becc9a6f394fa3f96809fbad39182f993065c94d3eecdc40311dc&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Country over years - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/country_over_years_dashboard.png)
 
 6.  Table of candidates hired - Dashboard.
-   ![Table of candidates hired - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304759513-b346a96c-608a-40a3-bb0d-8bf3f77b0a08.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T150918Z&X-Amz-Expires=300&X-Amz-Signature=5df025f955d90eff3473bb620adef06889aad69b9c411e3811bb324f18588c64&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Table of candidates hired - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/table_of_candidates_hired_dashboard.png)
 
    **Link of the interactive dashboard:** [Dashboard in Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
 
@@ -94,10 +94,10 @@ The visualizations that I am expecting are:
       Represents each of us.
 
 #### Diagram: Local Flow.
-   ![Local Flow - Data Arquitecture Diagram](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/305200387-ac16b7fc-cd5e-4f5b-bd29-f79eeb3b5037.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240216T004553Z&X-Amz-Expires=300&X-Amz-Signature=0f9dcdb05413c279f87f6e8b8b0316d95b72665787395c6f9fc9655413231c1b&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Local Flow - Data Arquitecture Diagram](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/local_flow_diagram_data_arquitecture_diagram.png)
 
 #### Diagram: Cloud Flow.
-   ![Cloud Flow - Data Arquitecture Diagram](https://gist.github.com/assets/92474551/3b4520f2-7cb8-49d0-9ba1-a235aaac0901)
+   ![Cloud Flow - Data Arquitecture Diagram](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/Cloud_Flow_Data_Arquitecture_Diagram.png)
    
 ---
 ### Step by step for execution
@@ -139,12 +139,12 @@ Following instructions are based on Windows 11 OS:
    python -m venv venv
    ```
 4. Choose venv as Kernel for .ipynb files in the folder **notebooks**.
-   ![Evidence selection of Venv](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303951049-e8df45a4-15ef-47e5-8dde-d1f388cdfe40.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025333Z&X-Amz-Expires=300&X-Amz-Signature=315b93903d3908b84692dd199e851519c9654ffc36046ce4a1744d24669d6620&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Evidence selection of Venv](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_selection_of_venv.png)
 
    In each file in **notebooks**, there is a code line to install required libraries if necessary with the title '_Install requirement libraries_'.
 
    As it's in the following screenshot:
-  ![Evidence of section Install requirement libraries](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303951226-178d3df4-ad5a-4f97-a7e3-f6d36b8a83eb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025326Z&X-Amz-Expires=300&X-Amz-Signature=27f1f47d7eca5e587b81179010ebcef75eccab7dbd034053208427010621b0e1&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+  ![Evidence of section Install requirement libraries](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_section_install_requiremente_libraries.png)
 
 5. Create the _TCP tunnel_ to connect _Local PostgreSQL_ to _Looker Studio_.
 
@@ -156,7 +156,7 @@ Following instructions are based on Windows 11 OS:
    ngrok tcp port
    ```
    Such as:
-   ![Evidence of Ngrok is running](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303951549-9f59a0ca-a9cc-4ce8-bc29-323ace774b9f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025318Z&X-Amz-Expires=300&X-Amz-Signature=4a9fcc8d19fd4a9296cbc886c1707ed40a20feee87e616264437d0714568a780&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Evidence of Ngrok is running](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_ngrok_is_running.png)
    According the example, our host is `4.tcp.ngrok.io` and our port `10297` to put in "*database authentication*" in PostgreSQL connector of _Looker Studio_.
 
 6. Explorate the notebooks in the folder **notebooks**. There are two notebooks: _load_csv_file_ and _EDA_report_.
@@ -178,10 +178,10 @@ Following instructions are based on Windows 11 OS:
    If we want, could update the data by editing the connection previously established with our credentials or create a new dashboard:
 
    1. Click on _Add data_ option:
-      ![Click on Add data](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303954175-026d1a08-6731-48c0-8f43-9a0ee781e6cd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025255Z&X-Amz-Expires=300&X-Amz-Signature=8e6d81456e80a8b810ca91281db98f1dd048fa2eeb513eb7385c777ba2537bec&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![Click on Add data](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/add_data_option_in_looker_studio.png)
 
    2. Choose PosgreSQL Connector:
-      ![To choose PostgreSQL Connector in Looker Studio](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303954251-eff688be-029b-4457-b788-f80826862ac1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025247Z&X-Amz-Expires=300&X-Amz-Signature=51aa5b7e9d289ed07917c93bec7cb87ff8d0afd976670137b904a6cc3c46c1ac&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![To choose PostgreSQL Connector in Looker Studio](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/choose_postgresql_connector_in_looker_studio.png)
 
    3. User our credentials to connect and choose _applicant_ table of the database.
 
@@ -195,7 +195,7 @@ Following instructions are based on Windows 11 OS:
       password = --------
       ```
 
-      ![Config to connect Looker Studio with PostgreSQL](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303954422-0ca9ed14-6365-4792-b845-9c1ca3b9e116.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025240Z&X-Amz-Expires=300&X-Amz-Signature=191d11604cdcee3a9ea162ee64208e24387d790d16d1cbef22b7c5e70cd1266f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![Config to connect Looker Studio with PostgreSQL](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/config_to_connect_looker_studio_with_postgresql.png)
 
       Now, we have the data sync with Looker Studio.
 
@@ -204,40 +204,40 @@ Following instructions are based on Windows 11 OS:
 
    1. Evidence of _etl_workshop_first_ creation.
 
-      ![Evidence of _etl_workshop_first_ creation](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303954840-0d79098a-8859-4e6b-af15-f29d04dfdee2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025216Z&X-Amz-Expires=300&X-Amz-Signature=0dcda14550cd153e2872f6f8b567e548e00be31891e31e72946c717c0f02e5b6&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![Evidence of _etl_workshop_first_ creation](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_etl_workshop_first_creation.png)
 
    2. Loading of records in **raw_applicant** table done.
 
       Inside of **load_csv_file** file is the evidence of execution.
 
-      ![raw applicant data](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303897209-35a5912d-65dd-4680-aca3-d6b7e0b240f3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025205Z&X-Amz-Expires=300&X-Amz-Signature=2a3ba515440a57d4b477df61516f2b0b0ef5e913c65999c7e03954dae7b329a2&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![raw applicant data](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_account_in_aws.png)
 
    3. Loading of records in **applicant** table done.
 
       Inside of **eda_report** file is the evidence of execution.
 
-      ![applicant_data](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303897290-13086343-0d5b-4829-84c6-05d1c57d00b9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025157Z&X-Amz-Expires=300&X-Amz-Signature=7a609c654ef0c4df694487ce1ad6a8f9fab489270f0ba2c267e929c4d8f08ca5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![applicant_data](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/records_in_applicant_table.png)
 
    4. Creation account in AWS for later use of AWS RDS.
-      ![Creation account in AWS for later use of AWS RDS](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303956012-c4a84a2c-d8d9-4822-a1af-85cfe04485a0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025143Z&X-Amz-Expires=300&X-Amz-Signature=dfb7374b81a7fdd4dcb9fb4dacf94b2227071fc5070e26f37cae2d7b76f4682d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![Creation account in AWS for later use of AWS RDS](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_account_in_aws.png)
 
    5. Creation Database in AWS RDS and Stopping for now.
-      ![Creation Database in AWS RDS and Stopping for now](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303956109-c9cdeb78-b02c-4d80-8dd6-04950c75d4e3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025134Z&X-Amz-Expires=300&X-Amz-Signature=81422e8412c2a9c27ae2556ddfad3182f4ae3f64792f405a422c19dcee44300f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![Creation Database in AWS RDS and Stopping for now](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_database_in_aws_rds.png)
 
    6. After used to get data for Looker Studio, I delete it to override costs.
-      ![After used to get data for Looker Studio, I delete it to override costs](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303956391-82ab2ecf-060a-47ef-9f9d-df845433a579.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025123Z&X-Amz-Expires=300&X-Amz-Signature=50db1c2114861291214cb7292069f7b5e4aa670e423a744e935a2720a2543559&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![After used to get data for Looker Studio, I delete it to override costs](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/after_used_to_get_data_for_looker_studio.png)
 
    7. Connection established between Looker Studio and AWS RDS with _etlworhshop_ database.
-      ![Connection established between Looker Studio and AWS RDS with _etlworhshop_ database](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303961735-0d18940d-f7c2-47de-9276-2f5507cf3578.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025113Z&X-Amz-Expires=300&X-Amz-Signature=e54b85b9302ab7cdcf6a3c833ff6df074a300304d894a276151469f240e9625a&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![Connection established between Looker Studio and AWS RDS with _etlworhshop_ database](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/connection_established_between_looker_studio.png)
 
    8. Ngrok is running.
-      ![Evidence of Ngrok is running](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303951549-9f59a0ca-a9cc-4ce8-bc29-323ace774b9f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025056Z&X-Amz-Expires=300&X-Amz-Signature=c47891e041b5ba5c2e637319da001aa378a304cbaaeb31c256531277d347bf08&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![Evidence of Ngrok is running](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_ngrok_is_running.png)
 
    9. Connection with Local PostgreSQL.
-      ![Config to connect Looker Studio with PostgreSQL](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303954422-0ca9ed14-6365-4792-b845-9c1ca3b9e116.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025048Z&X-Amz-Expires=300&X-Amz-Signature=5383c84d7063ce04cb5454423dbf4277ad23a1414400543a4c2a6d7c70d82127&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![Config to connect Looker Studio with PostgreSQL](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/config_to_connect_looker_studio_with_postgresql.png)
 
    10. Using pre-commits.
-      ![Using pre-commits](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/303961952-75f80c5f-381d-4bb1-9c04-00f94659f9ff.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T025037Z&X-Amz-Expires=300&X-Amz-Signature=9d74de65bf0275b66ae5bbdc6cec360f51be0519072384319dc887d18fc2ed1a&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+      ![Using pre-commits](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/using_pre_commits.png)
 
 ---
 ### My support resources
