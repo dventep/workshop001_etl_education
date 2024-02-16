@@ -51,7 +51,7 @@ The visualizations that I am expecting are:
    ![Country over years - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/012b5915c054d81db4c6892a2899bf98f955d0fd/country_over_years_dashboard.png)
 
 6.  Table of candidates hired - Dashboard.
-   ![Table of candidates hired - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/0523297721d4656550c27ef7a64395d92d04459a/table_of_candidates_hired_dashboard.png)
+   ![Table of candidates hired - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a84fb47e5accb0fa3188f526bfc91b73c3af4029/table_of_candidates_hired_dashboard.png)
 
    **Link of the interactive dashboard:** [Dashboard in Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
 
