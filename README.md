@@ -39,19 +39,19 @@ The visualizations that I am expecting are:
 ### Dashboard
 
 1. Home - Dashboard.
-   ![Home - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/home_dashboard.png)
+   ![Home - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/home_dashboard.png)
    
 3. Technology Category - Dashboard.
-   ![Technology Category - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/technology_category_dashboard.png)
+   ![Technology Category - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/technology_category_dashboard.png)
 
 4. Year & Seniority - Dashboard.
-   ![Year & Seniority - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/year_and_seniority_dashboard.png)
+   ![Year & Seniority - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/year_and_seniority_dashboard.png)
 
 5. Country over years - Dashboard.
-   ![Country over years - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/country_over_years_dashboard.png)
+   ![Country over years - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/country_over_years_dashboard.png)
 
 6.  Table of candidates hired - Dashboard.
-   ![Table of candidates hired - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/table_of_candidates_hired_dashboard.png)
+   ![Table of candidates hired - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/table_of_candidates_hired_dashboard.png)
 
    **Link of the interactive dashboard:** [Dashboard in Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
 
@@ -94,10 +94,10 @@ The visualizations that I am expecting are:
       Represents each of us.
 
 #### Diagram: Local Flow.
-   ![Local Flow - Data Arquitecture Diagram](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/local_flow_diagram_data_arquitecture_diagram.png)
+   ![Local Flow - Data Arquitecture Diagram](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/local_flow_diagram_data_arquitecture_diagram.png)
 
 #### Diagram: Cloud Flow.
-   ![Cloud Flow - Data Arquitecture Diagram](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/Cloud_Flow_Data_Arquitecture_Diagram.png)
+   ![Cloud Flow - Data Arquitecture Diagram](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/Cloud_Flow_Data_Arquitecture_Diagram.png)
    
 ---
 ### Step by step for execution
@@ -139,12 +139,12 @@ Following instructions are based on Windows 11 OS:
    python -m venv venv
    ```
 4. Choose venv as Kernel for .ipynb files in the folder **notebooks**.
-   ![Evidence selection of Venv](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_selection_of_venv.png)
+   ![Evidence selection of Venv](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_selection_of_venv.png)
 
    In each file in **notebooks**, there is a code line to install required libraries if necessary with the title '_Install requirement libraries_'.
 
    As it's in the following screenshot:
-  ![Evidence of section Install requirement libraries](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_section_install_requiremente_libraries.png)
+  ![Evidence of section Install requirement libraries](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_section_install_requiremente_libraries.png)
 
 5. Create the _TCP tunnel_ to connect _Local PostgreSQL_ to _Looker Studio_.
 
@@ -156,7 +156,7 @@ Following instructions are based on Windows 11 OS:
    ngrok tcp port
    ```
    Such as:
-   ![Evidence of Ngrok is running](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_ngrok_is_running.png)
+   ![Evidence of Ngrok is running](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_ngrok_is_running.png)
    According the example, our host is `4.tcp.ngrok.io` and our port `10297` to put in "*database authentication*" in PostgreSQL connector of _Looker Studio_.
 
 6. Explorate the notebooks in the folder **notebooks**. There are two notebooks: _load_csv_file_ and _EDA_report_.
@@ -178,10 +178,10 @@ Following instructions are based on Windows 11 OS:
    If we want, could update the data by editing the connection previously established with our credentials or create a new dashboard:
 
    1. Click on _Add data_ option:
-      ![Click on Add data](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/add_data_option_in_looker_studio.png)
+      ![Click on Add data](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/add_data_option_in_looker_studio.png)
 
    2. Choose PosgreSQL Connector:
-      ![To choose PostgreSQL Connector in Looker Studio](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/choose_postgresql_connector_in_looker_studio.png)
+      ![To choose PostgreSQL Connector in Looker Studio](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/choose_postgresql_connector_in_looker_studio.png)
 
    3. User our credentials to connect and choose _applicant_ table of the database.
 
@@ -195,7 +195,7 @@ Following instructions are based on Windows 11 OS:
       password = --------
       ```
 
-      ![Config to connect Looker Studio with PostgreSQL](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/config_to_connect_looker_studio_with_postgresql.png)
+      ![Config to connect Looker Studio with PostgreSQL](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/config_to_connect_looker_studio_with_postgresql.png)
 
       Now, we have the data sync with Looker Studio.
 
@@ -204,40 +204,40 @@ Following instructions are based on Windows 11 OS:
 
    1. Evidence of _etl_workshop_first_ creation.
 
-      ![Evidence of _etl_workshop_first_ creation](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_etl_workshop_first_creation.png)
+      ![Evidence of _etl_workshop_first_ creation](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_etl_workshop_first_creation.png)
 
    2. Loading of records in **raw_applicant** table done.
 
       Inside of **load_csv_file** file is the evidence of execution.
 
-      ![raw applicant data](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_account_in_aws.png)
+      ![raw applicant data](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_account_in_aws.png)
 
    3. Loading of records in **applicant** table done.
 
       Inside of **eda_report** file is the evidence of execution.
 
-      ![applicant_data](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/records_in_applicant_table.png)
+      ![applicant_data](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/records_in_applicant_table.png)
 
    4. Creation account in AWS for later use of AWS RDS.
-      ![Creation account in AWS for later use of AWS RDS](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_account_in_aws.png)
+      ![Creation account in AWS for later use of AWS RDS](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_account_in_aws.png)
 
    5. Creation Database in AWS RDS and Stopping for now.
-      ![Creation Database in AWS RDS and Stopping for now](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_database_in_aws_rds.png)
+      ![Creation Database in AWS RDS and Stopping for now](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_database_in_aws_rds.png)
 
    6. After used to get data for Looker Studio, I delete it to override costs.
-      ![After used to get data for Looker Studio, I delete it to override costs](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/after_used_to_get_data_for_looker_studio.png)
+      ![After used to get data for Looker Studio, I delete it to override costs](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/after_used_to_get_data_for_looker_studio.png)
 
    7. Connection established between Looker Studio and AWS RDS with _etlworhshop_ database.
-      ![Connection established between Looker Studio and AWS RDS with _etlworhshop_ database](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/connection_established_between_looker_studio.png)
+      ![Connection established between Looker Studio and AWS RDS with _etlworhshop_ database](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/connection_established_between_looker_studio.png)
 
    8. Ngrok is running.
-      ![Evidence of Ngrok is running](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_ngrok_is_running.png)
+      ![Evidence of Ngrok is running](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/evidence_of_ngrok_is_running.png)
 
    9. Connection with Local PostgreSQL.
-      ![Config to connect Looker Studio with PostgreSQL](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/config_to_connect_looker_studio_with_postgresql.png)
+      ![Config to connect Looker Studio with PostgreSQL](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/config_to_connect_looker_studio_with_postgresql.png)
 
    10. Using pre-commits.
-      ![Using pre-commits](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/using_pre_commits.png)
+      ![Using pre-commits](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/using_pre_commits.png)
 
 ---
 ### My support resources
