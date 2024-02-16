@@ -48,14 +48,14 @@ The visualizations that I am expecting are:
    ![Year & Seniority - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/year_and_seniority_dashboard.png)
 
 5. Country over years - Dashboard.
-   ![Country over years - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/country_over_years_dashboard.png)
+   ![Country over years - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/012b5915c054d81db4c6892a2899bf98f955d0fd/country_over_years_dashboard.png)
 
 6.  Table of candidates hired - Dashboard.
-   ![Table of candidates hired - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/table_of_candidates_hired_dashboard.png)
+   ![Table of candidates hired - Dashboard](https://gist.github.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/0523297721d4656550c27ef7a64395d92d04459a/table_of_candidates_hired_dashboard.png)
 
    **Link of the interactive dashboard:** [Dashboard in Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
 
-   **Look PDF:** [Dashboard in PDF](https://docs.google.com/viewer?srcid=16Hq1Zg4BD6EV23qcGTasjwCc6axVRyhn&pid=explorer&efh=false&a=v&chrome=false&embedded=true).
+   **Look PDF:** [Dashboard in PDF](files/Candidates%20-%20ETL%20Workshop%20001.pdf).
 
 ---
 ### Data arquitecture diagram
@@ -183,7 +183,7 @@ Following instructions are based on Windows 11 OS:
    2. Choose PosgreSQL Connector:
       ![To choose PostgreSQL Connector in Looker Studio](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/choose_postgresql_connector_in_looker_studio.png)
 
-   3. User our credentials to connect and choose _applicant_ table of the database.
+   3. Use our credentials to connect and choose _applicant_ table of the database.
 
       To use our credentials, we need according Ngrok gave us, our host and port:
 
