@@ -39,13 +39,13 @@ The visualizations that I am expecting are:
 ### Dashboard
 
 1. Home - Dashboard.
-   ![Home - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304911518-ed4e1238-275a-45b2-830e-e1a85438027e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240215T001259Z&X-Amz-Expires=300&X-Amz-Signature=52d901e6efbe7260dce52c3396a7100a4843eb1e4d202e9209458ca3595a1d36&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Home - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304911518-ed4e1238-275a-45b2-830e-e1a85438027e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240215T233934Z&X-Amz-Expires=300&X-Amz-Signature=d8b725fcf970c6de24003648822b8c69e2f01d8dd36c36e9670240efd49c8675&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
    
 3. Technology Category - Dashboard.
-   ![Technology Category - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304129419-dd9a5f2e-c3d3-4c17-9c78-0f41368a599a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T150644Z&X-Amz-Expires=300&X-Amz-Signature=43e990c5a7195c1641d4a0cb99cc32ccec7cb972c988e9fd41f5b62a7a433ff5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Technology Category - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/305254885-d0ae8895-2a52-4ec2-86e8-d13400bccc1c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240215T233808Z&X-Amz-Expires=300&X-Amz-Signature=06b99fd5d6ca926d976110f2d50509e1b4b340f02187bcfd125050379156b831&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 4. Year & Seniority - Dashboard.
-   ![Year & Seniority - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304128943-192fd030-4d25-4bcb-b73c-f0a260efa9cd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T150714Z&X-Amz-Expires=300&X-Amz-Signature=6d620e4a5292522e429dc4a05f2a9b23c304ca67de7bc3e0588af4f3447a3ef2&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Year & Seniority - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/305255543-b2032315-26da-42c4-807b-627f7cff6cc8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240215T234045Z&X-Amz-Expires=300&X-Amz-Signature=c5242098de49c165b9d3d0ef905ee2ec421a613b10a579b1772a896513115d2e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 5. Country over years - Dashboard.
    ![Country over years - Dashboard](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/304762241-d712f601-1080-4da5-8bac-42a25938a4cb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T150947Z&X-Amz-Expires=300&X-Amz-Signature=b2e5e8b7cd7becc9a6f394fa3f96809fbad39182f993065c94d3eecdc40311dc&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
@@ -94,10 +94,10 @@ The visualizations that I am expecting are:
       Represents each of us.
 
 #### Diagram: Local Flow.
-   ![Local Flow - Data Arquitecture Diagram](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/305200387-ac16b7fc-cd5e-4f5b-bd29-f79eeb3b5037.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240215T193256Z&X-Amz-Expires=300&X-Amz-Signature=fe5a90e7c327f2cf494fdf4867fdd854aaf2a7b7bb66c139cd20cc1d23bbbf76&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Local Flow - Data Arquitecture Diagram](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/305200387-ac16b7fc-cd5e-4f5b-bd29-f79eeb3b5037.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240216T004553Z&X-Amz-Expires=300&X-Amz-Signature=0f9dcdb05413c279f87f6e8b8b0316d95b72665787395c6f9fc9655413231c1b&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 #### Diagram: Cloud Flow.
-   ![Cloud Flow - Data Arquitecture Diagram](https://github-production-user-asset-6210df.s3.amazonaws.com/92474551/305201029-3b4520f2-7cb8-49d0-9ba1-a235aaac0901.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240215T193411Z&X-Amz-Expires=300&X-Amz-Signature=bc336d4d5a26e4cbf92f85c161db159e5ba61832ac95ea6af24393045ef8dff2&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+   ![Cloud Flow - Data Arquitecture Diagram](https://gist.github.com/assets/92474551/3b4520f2-7cb8-49d0-9ba1-a235aaac0901)
    
 ---
 ### Step by step for execution
