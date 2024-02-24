@@ -26,7 +26,7 @@ The tools used are:
 
 The project is oriented to present in a general way the candidates that are hired under the requirements provided by a job test and to perfom it in a visual way by means of sampling specific data to comply with it.
 
-The visualizations that I am expecting are:
+The visualizations that we am expecting are:
    - Hires by technology (pie chart).
    - Hires by year (horizontal bar chart).
    - Hires by seniority (bar chart).
@@ -83,7 +83,7 @@ The visualizations that I am expecting are:
       If the database doesn't exist, **load_csv_file** notebook will create it and its structure.
 
    - **Connection tunnel block**:
-      In this, I use [ngrok](https://ngrok.com/download) to create a public tunnel with _TCP protocol_ to connect _Looker Studio_ with _Local PostgreSQL_ and get all data of **applicant** table.
+      In this, we use [ngrok](https://ngrok.com/download) to create a public tunnel with _TCP protocol_ to connect _Looker Studio_ with _Local PostgreSQL_ and get all data of **applicant** table.
 
       _AWS RDS_ give us a _Public Host_ to connect if the setting of _AWS VPC_ allows it.
 
@@ -224,8 +224,8 @@ Following instructions are based on Windows 11 OS:
    5. Creation Database in AWS RDS and Stopping for now.
       ![Creation Database in AWS RDS and Stopping for now](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_database_in_aws_rds.png)
 
-   6. After used to get data for Looker Studio, I delete it to override costs.
-      ![After used to get data for Looker Studio, I delete it to override costs](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/after_used_to_get_data_for_looker_studio.png)
+   6. After used to get data for Looker Studio, we delete it to override costs.
+      ![After used to get data for Looker Studio, we delete it to override costs](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/after_used_to_get_data_for_looker_studio.png)
 
    7. Connection established between Looker Studio and AWS RDS with _etlworhshop_ database.
       ![Connection established between Looker Studio and AWS RDS with _etlworhshop_ database](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/connection_established_between_looker_studio.png)
