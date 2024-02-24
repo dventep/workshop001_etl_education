@@ -107,9 +107,10 @@ Read [installing_README.md](installing_README.md) for details on step by step to
 ---
 ### Project organization
 
+```
    ├── code
    │   ├── config
-   │   │   └── .pre-commit-config.yaml          <- Configuration for pre-commit hooks.
+   │   │   ├── .pre-commit-config.yaml          <- Configuration for pre-commit hooks.
    │   │   └── requirements.txt                 <- Python package dependencies for project.
    │   ├── database_models
    │   │   └── sql_classes.py                   <- SQL classes for database tables.
@@ -119,11 +120,12 @@ Read [installing_README.md](installing_README.md) for details on step by step to
    ├── files
    │   └── Candidates - ETL Workshop 001.pdf    <- Dashboard with graphical results of candidates hired.
    ├── notebooks
-   │   └── eda_report.ipynb                     <- Exploratory Data Analysis (EDA) Report: PostgreSQL data preprocessing, insights.
+   │   ├── eda_report.ipynb                     <- Exploratory Data Analysis (EDA) Report: PostgreSQL data preprocessing, insights.
    │   └── load_csv_file.ipynb                  <- CSV file loaded to PostgreSQL.
    ├── installing_README.md                     <- Installation instructions for required tools and process.
    ├── README.md                                <- The README to start the ETL process dashboard with Python and randomly generated candidate data.
    └── .gitignore                               <- All files to avoid being read.
+```
 
 ---
 ### Evidence
