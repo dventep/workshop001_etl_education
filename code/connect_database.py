@@ -9,7 +9,7 @@ from sqlalchemy_utils import database_exists
 from sqlalchemy.orm import sessionmaker
 import importlib.util
 
-spec = importlib.util.spec_from_file_location("sql_classes", "../code/models/sql_classes.py")
+spec = importlib.util.spec_from_file_location("sql_classes", "../code/database_models/sql_classes.py")
 sql_classes = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(sql_classes)
 
