@@ -138,7 +138,7 @@ Read [installing_README.md](installing_README.md) for details on step by step to
 
       Inside of **load_csv_file** file is the evidence of execution.
 
-      ![raw applicant data](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/creation_account_in_aws.png)
+      ![Raw applicant data](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/records_in_raw_applicant_table.png)
 
    3. Loading of records in **applicant** table done.
 
