@@ -1,7 +1,7 @@
 """ This module is to declarative the SQL classes for the database """
 
-from sqlalchemy.orm import declarative_base
 from sqlalchemy import Column, Integer, String, Date, CheckConstraint
+from sqlalchemy.orm import declarative_base
 
 BASE = declarative_base()
 
