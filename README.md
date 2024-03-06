@@ -39,7 +39,7 @@ The visualizations that we am expecting are:
 ### Dashboard
 
 1. Home - Dashboard.
-   ![Home - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/country_over_years_dashboard.jpg)
+   ![Home - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/home_dashboard.png)
    
 3. Technology Category - Dashboard.
    ![Technology Category - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/technology_category_dashboard.jpg)
