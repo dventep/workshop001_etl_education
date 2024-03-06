@@ -39,19 +39,19 @@ The visualizations that we am expecting are:
 ### Dashboard
 
 1. Home - Dashboard.
-   ![Home - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/home_dashboard.png)
+   ![Home - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/country_over_years_dashboard.jpg)
    
 3. Technology Category - Dashboard.
-   ![Technology Category - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/technology_category_dashboard.png)
+   ![Technology Category - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/technology_category_dashboard.jpg)
 
 4. Year & Seniority - Dashboard.
-   ![Year & Seniority - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/79d0afa23cb3a60b23821531b35c07fea0cb1790/year_and_seniority_dashboard.png)
+   ![Year & Seniority - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/year_and_seniority_dashboard.jpg)
 
 5. Country over years - Dashboard.
-   ![Country over years - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/012b5915c054d81db4c6892a2899bf98f955d0fd/country_over_years_dashboard.png)
+   ![Country over years - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/country_over_years_dashboard.jpg)
 
 6.  Table of candidates hired - Dashboard.
-   ![Table of candidates hired - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a84fb47e5accb0fa3188f526bfc91b73c3af4029/table_of_candidates_hired_dashboard.png)
+   ![Table of candidates hired - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/table_of_candidates_hired_dashboard.jpg)
 
    **Link of the interactive dashboard:** [Dashboard in Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
 
