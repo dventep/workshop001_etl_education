@@ -119,6 +119,7 @@ Read [installing_README.md](installing_README.md) for details on step by step to
    │   └── candidates.csv                       <- Candidates data in CSV format.
    ├── files
    │   └── Candidates - ETL Workshop 001.pdf    <- Dashboard with graphical results of candidates hired.
+   │   └── Document - WORKSHOP 001 Candidates - Job test.pdf    <- Descriptive document of the entire process.
    ├── notebooks
    │   ├── eda_report.ipynb                     <- Exploratory Data Analysis (EDA) Report: PostgreSQL data preprocessing, insights.
    │   └── load_csv_file.ipynb                  <- CSV file loaded to PostgreSQL.
