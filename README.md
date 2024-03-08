@@ -39,19 +39,19 @@ The visualizations that we am expecting are:
 ### Dashboard
 
 1. Home - Dashboard.
-   ![Home - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/home_dashboard.png)
+   ![Home - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/389bdf0951838121c0e57971ed3a9255ab0f0ac1/home_dashboard.jpg)
    
 3. Technology Category - Dashboard.
-   ![Technology Category - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/technology_category_dashboard.jpg)
+   ![Technology Category - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/389bdf0951838121c0e57971ed3a9255ab0f0ac1/technology_category_dashboard.jpg)
 
 4. Year & Seniority - Dashboard.
-   ![Year & Seniority - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/year_and_seniority_dashboard.jpg)
+   ![Year & Seniority - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/389bdf0951838121c0e57971ed3a9255ab0f0ac1/year_and_seniority_dashboard.jpg)
 
 5. Country over years - Dashboard.
-   ![Country over years - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/country_over_years_dashboard.jpg)
+   ![Country over years - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/389bdf0951838121c0e57971ed3a9255ab0f0ac1/country_over_years_dashboard.jpg)
 
 6.  Table of candidates hired - Dashboard.
-   ![Table of candidates hired - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/a737717e2284bac23080671e5f6e08610d784d07/table_of_candidates_hired_dashboard.jpg)
+   ![Table of candidates hired - Dashboard](https://gist.githubusercontent.com/dventep/579f1646c6d6011e4e8314fb85482eba/raw/389bdf0951838121c0e57971ed3a9255ab0f0ac1/table_of_candidates_hired_dashboard.jpg)
 
    **Link of the interactive dashboard:** [Dashboard in Looker Studio](https://lookerstudio.google.com/reporting/7c98a50e-d58f-4e4e-a8e8-17a09b233513).
 
@@ -126,6 +126,33 @@ Read [installing_README.md](installing_README.md) for details on step by step to
    ├── README.md                                <- The README to start the ETL process dashboard with Python and randomly generated candidate data.
    └── .gitignore                               <- All files to avoid being read.
 ```
+
+---
+### Conclusions
+
+The process is successfully completed with different tools in which AWS RDS and Ngrok are new to me, and Looker Studio very little previously. Although it’s a pity that they were randomly generated data, because the analysis could lend itself to be much deeper, finding correlations and using whisker plots for some variables.
+
+Throughout the process, some insights about this exploration and conclusions:
+
+- Column removed due to its assigning automately by SQLAlchemy:
+
+   - _sa_instance_state
+
+- 10 columns to 16 columns loaded in **applicant** table in the database.
+
+- 24 technologies were grouped into 8.
+
+- 165 candidates have submitted a minimum of two applications.
+
+- 13.4% of candidates are will be hired.
+
+- As we can see, even randomly generated:
+
+   - The software technology has more movement.
+
+   - Despite critical times such as the pandemic that affected the whole world, it did not affect hiring.
+
+   - The company is either growing a lot or the employee turnover is gigantic.
 
 ---
 ### Evidence
